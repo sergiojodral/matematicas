@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Matemáticas</title>
+    <title>Matemáticas 1º de ESO</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #f8f9fa;
             color: #333;
-            margin: 0;
-            padding: 20px;
+            padding-top: 56px;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #007bff;
             color: white;
             padding: 10px 0;
             text-align: center;
@@ -21,8 +20,8 @@
         h1 {
             margin: 0;
         }
-        section {
-            margin: 20px 0;
+        .unit {
+            margin-bottom: 20px;
         }
         footer {
             text-align: center;
@@ -33,24 +32,52 @@
     </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">Matemáticas 1º de ESO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#unidad1">Unidad 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#unidad2">Unidad 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#unidad3">Unidad 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <header>
-        <h1>Página de Matemáticas</h1>
+        <h1>Bienvenidos a Matemáticas 1º de ESO</h1>
     </header>
-    <section>
-        <h2>Bienvenidos</h2>
-        <p>Esta es una página web creada para compartir recursos y materiales de matemáticas.</p>
-    </section>
-    <section>
-        <h2>Recursos</h2>
-        <ul>
-            <li><a href="#">Tema 1: Álgebra</a></li>
-            <li><a href="#">Tema 2: Geometría</a></li>
-            <li><a href="#">Tema 3: Trigonometría</a></li>
-        </ul>
-    </section>
+
+    <div class="container">
+        <section id="unidad1" class="unit">
+            <h2>Unidad 1: Números y Operaciones</h2>
+            <p>En esta unidad aprenderemos sobre los números enteros, fracciones y decimales, y cómo realizar operaciones con ellos.</p>
+        </section>
+        <section id="unidad2" class="unit">
+            <h2>Unidad 2: Álgebra</h2>
+            <p>En esta unidad aprenderemos a utilizar expresiones algebraicas, resolver ecuaciones sencillas y comprender los conceptos básicos del álgebra.</p>
+        </section>
+        <section id="unidad3" class="unit">
+            <h2>Unidad 3: Geometría</h2>
+            <p>En esta unidad exploraremos los conceptos de puntos, líneas, ángulos, figuras geométricas y sus propiedades.</p>
+        </section>
+    </div>
+
     <footer>
         <p>&copy; 2024 Profesor de Matemáticas</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 
